@@ -21,10 +21,13 @@
     "eslint-plugin-react-hooks": "^4.2.0"
   },
   "scripts": {
+    "csscomb": "./node_modules/.bin/csscomb src/components",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "./node_modules/.bin/eslint src",
+    "lint:fix": "./node_modules/.bin/eslint --fix src"
   },
   "eslintConfig": {
     "extends": [
