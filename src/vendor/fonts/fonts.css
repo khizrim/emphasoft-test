@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'Inter';
+  font-family: 'PT Sans';
   font-weight: normal;
-  src: url('./Inter-Regular.woff2') format('woff2'),
-    url('./Inter-Regular.woff') format('woff');
+  src: url('./PT-Sans-Regular.woff2') format('woff2'),
+    url('./PT-Sans-Regular.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Inter';
-  font-weight: 500;
-  src: url('./Inter-Medium.woff2') format('woff2'),
-    url('./Inter-Medium.woff') format('woff');
+  font-family: 'PT Sans';
+  font-weight: 700;
+  src: url('./PT-Sans-700.woff2') format('woff2'),
+    url('./PT-Sans-700.woff') format('woff');
 }
