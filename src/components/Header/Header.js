@@ -3,12 +3,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import logo from '../../images/logo.svg';
-import Navigation from '../Navigation/Navigation';
 
 import './Header.css';
 
 function Header(props) {
-  const { isLoggedIn } = props;
+  const { onSignOut } = props;
 
   return (
     <header className="header">
@@ -16,10 +15,17 @@ function Header(props) {
         <img
           className="header__logo"
           src={logo}
-          alt="Логотип Movies Explorer"
+          alt="Emphasoft Logo"
         />
       </Link>
-      <Navigation isLoggedIn={isLoggedIn} />
+      <button
+        aria-label="Sign Out"
+        className="header__signout-button"
+        type="button"
+        onClick={onSignOut}
+      >
+        Sign Out
+      </button>
     </header>
   );
 }

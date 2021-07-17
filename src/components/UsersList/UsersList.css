@@ -1,0 +1,52 @@
+.users-list {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  padding: 40px 0;
+  width: calc(100% - 70px * 2);
+}
+
+.users-list__title {
+  margin: 0 2px;
+  font-size: 24px;
+}
+
+.users-list__grid {
+  display: grid;
+  padding: 20px 0;
+  width: 100%;
+
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  row-gap: 20px;
+}
+
+.users-list__message {
+  margin: 20px auto;
+  max-width: 320px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+
+}
+
+@media only screen and (max-width: 989px) {
+  .users-list {
+    width: calc(100% - 30px * 2);
+
+    grid-auto-rows: 258px;
+  }
+}
+
+@media only screen and (max-width: 679px) {
+  .users-list {
+    padding-top: 50px;
+    width: calc(100% - 10px * 2);
+
+    grid-auto-rows: 236px;
+  }
+
+  .users-list__title {
+    margin: 0 22px;
+  }
+}

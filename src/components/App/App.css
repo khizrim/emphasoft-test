@@ -2,8 +2,8 @@
   min-width: 320px;
   min-height: 100vh;
   background-color: #fafafa;
-  color: #000;
-  font-family: 'Inter', Arial, sans-serif;
+  color: #4b4b4b;
+  font-family: 'PT Sans', Arial, sans-serif;
 
   text-rendering: optimizeLegibility;
 }

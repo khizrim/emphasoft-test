@@ -1,0 +1,28 @@
+.preloader__round {
+  display: inline-block;
+  padding: 80px 0;
+  width: 80px;
+  height: 80px;
+}
+
+.preloader__round:after {
+  display: block;
+  margin: 8px;
+  width: 64px;
+  height: 64px;
+  border: 6px solid #13bed3;
+  border-color: #13bed3 transparent #13bed3 transparent;
+  border-radius: 50%;
+  content: " ";
+  animation: preloader__round 1.2s linear infinite;
+}
+
+@keyframes preloader__round {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
