@@ -6,7 +6,7 @@ Need to make a single page application with responsive layout and with the abili
 Used Create React App to build it.
 
 ## Link:
-https://emphasoft.khizrim.ru
+https://khizrim.github.io/emphasoft-test
 
 ## Install and Run
 `npm i` - dependencies installation
