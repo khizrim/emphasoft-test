@@ -39,6 +39,6 @@ class Api {
   }
 }
 
-const api = new Api('http://emphasoft-test-assignment.herokuapp.com');
+const api = new Api('https://emphasoft-test-assignment.herokuapp.com');
 
 export default api;
