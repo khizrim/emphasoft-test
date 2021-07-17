@@ -8,9 +8,6 @@ Used Create React App to build it.
 ## Link:
 https://emphasoft.khizrim.ru
 
-### Server IP Adress
-https://178.154.214.108
-
 ## Install and Run
 `npm i` - dependencies installation
 `npm start` - run project
