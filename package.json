@@ -26,6 +26,7 @@
     "csscomb": "csscomb src/components",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "scp -r ./build/* khizrim@178.154.214.108:/home/khizrim/emphasoft-test",
     "lint": "eslint src",
     "lint:fix": "eslint --fix src"
   },
